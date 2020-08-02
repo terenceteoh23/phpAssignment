@@ -1,0 +1,86 @@
+/*SearchButtons*/
+.searchBus-button
+{
+	width : 350px;
+	height : 50px;
+	background-color : #B0E0E6;
+	border : none;
+	color : white;
+	border-radius: 4px;
+	outline : none;
+	padding : 5px;
+	margin : 8px 0;
+	font-size : 20px;
+}
+
+.searchBus-button:hover
+{
+	background-color:#DCDCDC;
+}
+
+
+/*Select Button*/
+.select-button
+{
+	width : 100px;
+	height : 45px;
+	background-color : #B0E0E6;
+	border : none;
+	color : white;
+	border-radius: 4px;
+	outline : none;
+	padding : 5px;
+	margin : 8px 0;
+	font-size : 20px;
+}
+
+.select-button:hover
+{
+	background-color:#DCDCDC;
+}
+
+/*This is the back button in list bus available*/
+.back-button
+{
+	width : 200px;
+	height : 40px;
+	background-color : #B0E0E6;
+	border : none;
+	color : white;
+	border-radius: 4px;
+	outline : none;
+	padding : 5px;
+	margin : 8px 0;
+	font-size : 18px;
+}
+
+.back-button:hover
+{
+	background-color:#DCDCDC;
+}
+
+/*Table*/
+table
+{
+	border-collapse : collapse;
+	width : 80%;
+}
+
+th
+{
+	text-align : center;
+	padding : 20px;
+	font-size : 20px;
+}
+
+td
+{
+	text-align : center;
+	padding : 20px;
+	font-size : 17px;
+}
+
+tr:nth-child(even) 
+{
+	background-color : #f2f2f2;
+}

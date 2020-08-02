@@ -1,0 +1,134 @@
+th
+{
+	height : 45px;
+	font-size : 20px;
+}
+
+tr:nth-child(even) {background-color : #f2f2f2;}
+
+td
+{
+	font-size : 20px;
+}
+
+input[type=text], input[type=password]
+{
+  width: 100%;
+  padding: 10px 200px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border : none;
+  border-bottom : 1px solid black;
+}
+
+.container1
+{
+	width : 1180px;
+	height: 100px;
+	position : absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button
+{
+	width : 300px;
+	height : 50px;
+	background-color : #87CEFA;
+	color : white;
+	padding : 14px 20px;
+	text-align : center;
+	font-size : 16px;
+	border : none;
+	display : inline-block;
+	margin : 8px 10px;
+	cursor : pointer;
+	margin-top:-5px;
+	border-radius : 15px;
+	opacity : 0.9;
+}
+
+.button-update
+{
+	width : 80%;
+	height : 50px;
+	background-color :#00008B;
+	color : white;
+	padding : 14px 20px;
+	text-align : center;
+	font-size : 16px;
+	border : none;
+	display : inline-block;
+	margin : 8px 10px;
+	cursor : pointer;
+	margin-top:-5px;
+	border-radius : 15px;
+	opacity : 0.9;
+}
+
+.button:hover 
+{
+	background-color :#DCDCDC;
+}
+
+.dropDownList-nationality select
+{
+	width : 1050px;
+	height : 50px;
+	background-color :#DCDCDC;
+	color : white;
+	padding : 10px;
+	border : none;
+	font-size : 25px; 
+	outline : none;
+}
+
+.changePassword-box
+{
+	width : 700px;
+	background-color : #F0FFFF ;
+	margin : 50px auto;
+	padding : 50px 0;
+	color : black;
+}
+
+h1
+{
+	text-align : center;
+	margin-bottom : 40px;
+}
+
+.input-box
+{
+	margin : 31px auto;
+	width : 80%;
+	border-bottom : 1px solid #fff;
+	padding-top : 10px;
+	padding-bottom : 5px;
+}
+
+.input-box input
+{
+	width : 90%;
+	background : transparent;
+	color : #fff;
+}
+
+.changePassword
+{
+	margin : 40px auto 20px;
+	width : 80%;
+	display : block;
+	outline : none;
+	padding : 10px 0;
+	border : 1px solid #fff;
+	cursor : pointer;
+	font-size : 16px;
+	background-color : #bce0f7;
+}
+
+.changePassword:hover
+{
+	background-color :#DCDCDC;
+}

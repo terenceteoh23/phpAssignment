@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  height: 100%;
+/*  background-color: #6699ff;*/
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding-bottom: 20px; 
+}
+
+/*banner*/
+.banner img{
+  display: block;
+  width: 100%;
+}
+
+/*navigation bar*/
+/*.navibar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 55px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #5E8DBB;
+}
+
+.navibar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navibar a:hover {
+  background-color: #ffffff;
+  color: #5E8DBB;
+}*/
+
+/*.navibar a.active {
+  background-color: #ffffff;
+  color: #6699ff;
+}*/
+
+.welcome_text{
+  margin: 0;
+  text-align: center;
+  background-color: #6699ff;  
+  padding-top: 1px;
+  padding-bottom: 10px;
+}
+
+.welcome_text h1,.welcome_text h3{;
+  color: #ffffff;
+  text-shadow: 0px 2px 6px #404040;
+}
+
+/*Dropdown Button*/
+.dropDownList
+{
+/*  position : absolute;
+  top : 30%;
+  left : 17%*/
+  background-color: #ffffff;
+  padding: 50px 0 80px 0;
+}
+
+.dropDownList table{
+  margin: auto;
+}
+
+.dropDownList select
+{
+  width : 200px;
+  height : 50px;
+  background-color : #B0E0E6;
+  color : white;
+  padding : 5px;
+  border : none;
+  border-radius : 4px;
+  font-size : 20px; 
+  outline : none;
+}
+
+/* Change color of form and to select on hover for from */
+.dropDownList select:hover 
+{
+  background-color: blue;
+}
+
+/*The input of the date*/
+input
+{
+  width: 200px;
+  height : 50px;
+  padding: 5px; 
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  box-sizing:border-box;
+  color : white;
+  font-size : 17px;
+  background-color :#B0E0E6;
+  text-align : center;
+  outline : none;
+}
+
+/* Change color of input date on hover for from */
+.dropDownList input:hover 
+{
+  background-color: blue;
+}
+
+/*This is the search button in list destination base on date*/
+.search-button
+{
+  width : 150px;
+  height : 50px;
+  background-color : #B0E0E6;
+  border : none;
+  color : white;
+  border-radius: 4px;
+  outline : none;
+  padding : 5px;
+  margin : 8px 0;
+  font-size : 20px;
+}
+
+.search-button:hover
+{
+  background-color: blue;
+}
+
+/*This is the date in list destination base on date*/
+input[type="date"]:before {
+    content: attr(placeholder) !important;
+    color: #aaa;
+  }
+  input[type="date"]:focus:before,
+  input[type="date"]:valid:before {
+    content: "";
+  }
+
+.content {
+/*  width: 100%;*/
+  padding: 0px 300px 25px 300px;
+/*  margin: auto;*/
+  overflow: auto;
+}
+
+.column {
+  border-radius: 25px;
+  float: left;
+  text-align: center;
+/*  padding: 20px 10px;*/
+  /*  margin-left: 115px;*/
+  color: #ffffff;
+  width: 100%;
+  border-style: solid;
+  border-color: #6699ff;
+  background-color: #6699ff;
+}
+

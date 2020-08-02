@@ -1,0 +1,66 @@
+/*Dropdown Button*/
+.dropDownList-Date
+{
+	position : absolute;
+	top : 30%;
+	left : 50%;
+	transform : translate(-50%, -50%);
+}
+
+.dropDownList-Date select
+{
+	width : 200px;
+	height : 50px;
+	background-color : #8ad3ff;
+	color : white;
+	padding : 10px;
+	border : none;
+	font-size : 20px; 
+	outline : none;
+}
+
+/* Change color of dropdown links on hover for from */
+.dropDownList-Date select:hover 
+{
+	background-color:#b1e2ff;
+}
+
+/*This is the search button in list destination base on date*/
+.search-button
+{
+	width : 150px;
+	height : 50px;
+	background-color : #3b93ff;
+	border : none;
+	color : white;
+	border-radius: 4px;
+	outline : none;
+	padding : 5px;
+	margin : 8px 0;
+	font-size : 20px;
+}
+
+.search-button:hover
+{
+	background-color:#6ed1f3;
+}
+
+/*This is the search button in list destination base on date*/
+.back-button
+{
+	width : 200px;
+	height : 40px;
+	background-color : #62d7ff;
+	border : none;
+	color : white;
+	border-radius: 4px;
+	outline : none;
+	padding : 5px;
+	margin : 8px 0;
+	font-size : 18px;
+}
+
+.back-button:hover
+{
+	background-color:#6ed1f3;
+}

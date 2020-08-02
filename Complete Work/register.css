@@ -1,0 +1,46 @@
+/*register css*/
+.background-img{
+	background-image: linear-gradient(rgba(0,0,0,0.5),
+	rgba(0,0,0,0.5)),url(Image/bus1.png);
+	height: 650px;
+	background-position: center;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+.register-form-box{
+	max-width: 600px;
+	border: 1px solid #ced4da;
+	margin: 3% auto 0;
+	margin-bottom: 100px;
+	color: white;
+	margin-top: 100px;
+}
+.register-form-name{
+	border: 1px solid #ced4da;
+}
+
+.register-word-col{
+	color:#ced4e1;
+	font-size:11px;
+}
+input{
+	width: 75%;
+	padding: 12px 20px; margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing:border-box;
+}
+.redText{
+	color:red;
+}
+.policy{
+	font-size:13px;
+	text-align:left;
+}
+.policy a{
+	color:blue;
+	text-decoration:none;
+}	
+/*end register css*/			

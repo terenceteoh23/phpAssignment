@@ -1,0 +1,109 @@
+/*Dropdown Button*/
+.dropDownList
+{
+	position : absolute;
+	top : 20%;
+	left : 17%;
+}
+
+.dropDownList select
+{
+	width : 200px;
+	height : 50px;
+	background-color :#8abfff;
+	color : white;
+	padding : 5px;
+	border : none;
+	border-radius : 4px;
+	font-size : 20px; 
+	outline : none;
+}
+
+/* Change color of form and to select on hover for from */
+.dropDownList select:hover 
+{
+	background-color: #9edaff;
+}
+
+/*The input of the date*/
+input
+{
+	width: 200px;
+	height : 50px;
+	padding: 5px; 
+	display: inline-block;
+	border: none;
+	border-radius: 4px;
+	box-sizing:border-box;
+	color : white;
+	font-size : 17px;
+	background-color :#8abfff;
+	text-align : center;
+	outline : none;
+}
+
+/* Change color of input date on hover for from */
+.dropDownList input:hover 
+{
+	background-color: #9edaff;
+}
+
+
+/*This is the book button in book ticket*/
+.book-button
+{
+	width : 150px;
+	height : 50px;
+	background-color : #2889ff;
+	border : none;
+	color : white;
+	border-radius: 4px;
+	outline : none;
+	padding : 5px;
+	margin : 8px 0;
+	font-size : 20px;
+}
+
+.book-button:hover
+{
+	background-color: #76b4ff;
+}
+
+/*This is the back button in book ticket*/
+.back-button
+{
+	width : 150px;
+	height : 50px;
+	background-color : #2889ff;
+	border : none;
+	color : white;
+	border-radius: 4px;
+	outline : none;
+	padding : 5px;
+	margin-left: 10px;
+	font-size : 20px;
+}
+
+.back-button:hover
+{
+	background-color: #76b4ff;
+}
+
+/*Radio butto*/
+input[type=radio]
+{
+	width:15px;
+	height:15px;
+}
+
+/*This is the date in list destination base on date*/
+input[type="date"]:before {
+    content: attr(placeholder) !important;
+    color: #aaa;
+  }
+  input[type="date"]:focus:before,
+  input[type="date"]:valid:before {
+    content: "";
+  }
+  
+	
